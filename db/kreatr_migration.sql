@@ -1,0 +1,9 @@
+# 1. CREATE DATABASE
+# 2. CONNECT TO DATABASE
+# 3. CREATE TABLES
+
+CREATE DATABASE alpha_kreatr;
+\c alpha_kreatr;
+CREATE TABLE account (id SERIAL PRIMARY KEY, name VARCHAR(255), email VARCHAR(255), password_hash VARCHAR(255));
+CREATE TABLE picture (id SERIAL PRIMARY KEY, name VARCHAR(255), url VARCHAR(255), alt_text VARCHAR(255));
+CREATE TABLE sarah_mcglaucghklin (id SERIAL PRIMARY KEY, name VARCHAR(255), song VARCHAR(255), the_children VARCHAR(255));

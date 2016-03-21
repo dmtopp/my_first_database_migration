@@ -1,0 +1,7 @@
+CREATE DATABASE alpha_buster;
+\c alpha_buster;
+CREATE TABLE account (id SERIAL PRIMARY KEY; name VARCHAR(255), email VARCHAR(255), password_hash VARCHAR(255));
+CREATE TABLE pet_name (id SERIAL PRIMARY KEY, name VARCHAR(255));
+CREATE TABLE species (id SERIAL PRIMARY KEY, name VARCHAR(255));
+CREATE TABLE pet (id SERIAL PRIMARY KEY, name VARCHAR(255))
+;
